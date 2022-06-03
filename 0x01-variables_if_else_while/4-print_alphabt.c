@@ -19,7 +19,7 @@ int main(void)
 	for (ann = 'a'; ann <= 'z'; ann++)
 	{
 		if (ann != e && ann != q)
-			putchar ann;
+			putchar(ann);
 	}
 	printf("\n");
 
