@@ -7,7 +7,7 @@
  * Return: 0
  *
  */
-int main()
+int main(void)
 {
 	char a = '_';
 	char b = 'p';
@@ -17,6 +17,7 @@ int main()
 	char f = 'h';
 	char g = 'a';
 	char h = 'r';
+
 	putchar(a);
 	putchar(b);
 	putchar(c);
