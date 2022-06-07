@@ -25,7 +25,7 @@ int main()
 	putchar(f);
 	putchar(g);
 	putchar(h);
-	putchar(\n);
+	putchar('\n');
 
 	return (0);
 }
