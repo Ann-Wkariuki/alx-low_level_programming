@@ -10,16 +10,12 @@
  */
 int _islower(int r)
 {
-	if (r >= 'a' && r <= 'z')
-	putchar('1');
-
+	if ((c >= 97) && (c <= 122))
+	{
+		return (1);
+	}
 	else
-		r = _islower('H');
-	 putchar(r + '0');
-	 r = _islower('o');
-	 putchar(r + '0');
-	 r = _islower(108);
-	 putchar(r + '0');
-	 putchar('\n');
+	{
 		return (0);
+	}
 }
