@@ -2,8 +2,8 @@
 /**
  * add - a function that adds two integers and returns the result
  *
- * Description: first number input
- *
+ *@one: first number input
+ *@two: second number input
  * Return: one + two
  *
  */
