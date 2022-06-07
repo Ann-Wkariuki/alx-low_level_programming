@@ -9,14 +9,14 @@
  */
 int main()
 {
-	char a = "_";
-	char b = "p";
-	char c = "u";
-	char d = "t";
-	char e = "c";
-	char f = "h";
-	char g = "a";
-	char h = "r";
+	char a = '_';
+	char b = 'p';
+	char c = 'u';
+	char d = 't';
+	char e = 'c';
+	char f = 'h';
+	char g = 'a';
+	char h = 'r';
 	putchar(a);
 	putchar(b);
 	putchar(c);
