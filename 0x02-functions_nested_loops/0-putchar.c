@@ -2,15 +2,15 @@
 /**
  * main - prints a string
  *
- * Descripition: prints a string
+ * Description: prints a string
  *
  * Return: 0
  *
  */
 int main(void)
 {
-	char a;
-	a = "_putcharn\n";
+	char a[] = "_putchar\n";
 	putchar a;
+
 	return (0);
 }
