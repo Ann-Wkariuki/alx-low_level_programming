@@ -7,8 +7,7 @@
  * Return: 0
  *
  */
-int main(void)
-
+void print_alphabet(void)
 {
 	char ann;
 
@@ -17,6 +16,4 @@ int main(void)
 		putchar(ann);
 		putchar('\n');
 	}
-
-	return (0);
 }
