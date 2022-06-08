@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- * _abs(int) -prints the absolute value
- * Description: prints the absolute value
- *
- * Return: absolute value
- * 
+ * _abs - prints the absolute value
+ *@ab: prints the absolute value
+ *Return: absolute value
  */
 int _abs(int ab)
 {
