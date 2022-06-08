@@ -2,7 +2,7 @@
 /**
  * _isalpha - prints 1 if the value entered is an alphabet
  *
- *@c prints one if a value is an alphabet
+ *@c: prints one if a value is an alphabet
  *
  * Return: 1 if value is an alphabet,0 otherwise
  *
