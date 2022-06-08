@@ -1,4 +1,5 @@
 #include "main.h"
+#include "_putchar"
 /**
  * _isalpha - prints 1 if the value entered is an alphabet
  *
