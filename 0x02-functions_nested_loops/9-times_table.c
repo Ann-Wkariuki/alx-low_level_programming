@@ -13,9 +13,9 @@ void times_table(void)
 
 	for (rone = 0; rone <= 9; rone++)
 	{
-		putchar('0');
-		putchar(',');
-		putchar(' ');
+		_putchar('0');
+		_putchar(',');
+		_putchar(' ');
 		for (cone = 1; cone <= 9; cone++)
 		{
 			d = (rone * cone);
@@ -28,14 +28,14 @@ void times_table(void)
 				putchar(' ');
 
 			}
-			putchar((d % 10) + '0');
+			_putchar((d % 10) + '0');
 
 			if (cone < 9)
 			{
-				putchar(',');
-				putchar(' ');
+				_putchar(',');
+				_putchar(' ');
 			}
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
