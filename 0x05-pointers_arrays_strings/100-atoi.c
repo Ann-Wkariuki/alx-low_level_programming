@@ -46,5 +46,4 @@ int _atoi(char *s)
 				x = (10 * x + s[length3]);
 			}
 		return (x);
-
 	}
