@@ -18,7 +18,6 @@ int _atoi(char *s)
 		{
 			dash++;
 		}
-
 	}
 	for (length = 0; length != '\0'; length++)
 	{
