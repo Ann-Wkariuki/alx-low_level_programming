@@ -16,10 +16,10 @@ unsigned int _strspn(char *s, char *accept)
 	str2 = accept;
 
 	a = 0;
-	while (str1[a] != '\0') /*Declaring WHILE *s */
+	while (str1[a] != 32) /*Declaring WHILE *s */
 	{
 		b = 0;
-		while(str2[b] != '\0') /*Declaring WHILE *accept*/
+		while(str2[b] != 32) /*Declaring WHILE *accept*/
 		{
 			if(str1[a] == str2[b])
 					{
