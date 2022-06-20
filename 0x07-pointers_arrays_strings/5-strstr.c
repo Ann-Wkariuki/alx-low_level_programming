@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  *_strstr - Entry point
@@ -28,4 +29,3 @@ char *_strstr(char *haystack, char *needle)
 	return ('\0');
 
 }
-
