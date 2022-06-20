@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  *_memset - replaces a memory space with a character
