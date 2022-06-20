@@ -8,33 +8,18 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int a,b;
-	int c = 0;
-	char *str1, *str2;
+	unsigned int a = 0, b, t = 0;
 
-	str1 = s;
-	str2 = accept;
-
-	a = 0;
-	while (str1[a] != 32) /*Declaring WHILE *s */
+	while(accept[a])
 	{
 		b = 0;
-		while(str2[b] != 32) /*Declaring WHILE *accept*/
-		{
-			if(str1[a] == str2[b])
-					{
-						c++;/*count value*/
-						break;
-					}
-			b++;/*add b+1*/
+		while(s[b] != 32){
+			{
+				t++;
+			}
+			b++;
 		}
-		if (s[b] != accept[b]) /*If aren't equals*/
-		{
-			break;
-		}
-
-		a++;/*add x+1*/
+		a++;
 	}
-	return (c);
-
+	return(t);
 }
