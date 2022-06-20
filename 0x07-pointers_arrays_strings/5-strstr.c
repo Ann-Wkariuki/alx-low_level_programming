@@ -6,18 +6,25 @@
  *Return: Always 0 (Success)
  */
 char *_strstr(char *haystack, char *needle)
+
 {
-	for (*haystack != '\0'; haystack++)
+	int a = 0, b = 0;
+
+	while (haystack[a])
 	{
-		char *one = haystack;
-		char *two = needle;
-		while (*one == *two && *two != '\0')
+		while (needle[b])
 		{
-			one++;
-			two++;
+			if (haystack[a + b] != needle[b])
+			{
+				break;
+			}
+			b++;
 		}
-		if (*two == '\0')
-			return (haystack);
+		if (needle[b] == '\n')
+		{
+			return (haystack + a);
+		}
+		a++;
 	}
-	return (NULL);
+	return ('\0');
 }
