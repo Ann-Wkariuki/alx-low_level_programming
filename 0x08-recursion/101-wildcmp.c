@@ -61,12 +61,12 @@ char *postfix_match(char *str, char *postfix)
 
 	return (postfix);
 }
-	/**
-	 *wildcmp - looks for wildcard character
-	 *@s1: The first string to be compared.
-	 *@s2: The second string to be compared - may contain wildcards
-	 *Return: If the strings can be considered identical - 1. and 0 otherwise
-	 */
+/**
+ *wildcmp - checks wild chars
+ *@s1: string one
+ *@s2: string two
+ *Return: returns 0 if check fails
+ */
 	int wildcmp(char *s1, char *s2)
 {
 	if (*s2 == '*')
