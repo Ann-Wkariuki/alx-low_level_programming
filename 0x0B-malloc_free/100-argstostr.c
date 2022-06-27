@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  *_strcat - Concat string, src appended to dest
  *@dest: Destination string
