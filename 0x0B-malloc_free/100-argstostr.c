@@ -12,25 +12,25 @@ char *_strcat(char *dest, char *src)
 	int i, n, k = 0, len = 0;
 	char *str;
 
-	if (ac == 0 || av == NULL)
+	if (dest == 0 || src == NULL)
 		return (NULL);
 
-	for (i = 0; i < ac; i++)
+	for (i = 0; i < dest; i++)
 	{
-		for (n = 0; av[i][n]; n++)
+		for (n = 0; src[i][n]; n++)
 			len++;
 	}
-	len += ac;
+	len += dest;
 
 	str = malloc(sizeof(char) * len + 1);
 	if (str == NULL)
 		return (NULL);
 
-	for (i = 0; i < ac; i++)
+	for (i = 0; i < dest; i++)
 	{
-		for (n = 0; av[i][n]; n++)
+		for (n = 0; src[i][n]; n++)
 		{
-			str[k] = av[i][n];
+			str[k] = scr[i][n];
 			k++;
 		}
 		if (str[k] == '\0')
