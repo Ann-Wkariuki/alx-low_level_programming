@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *_strcat - Concat string, src appended to dest
- *@dest: Destination string
- *@src: Source string
+ *argstostr - Concat string, src appended to dest
+ *@ac: Destination string
+ *@av: Source string
  *Return: Concat newString to dest
  */
 char *argstostr(int ac, char **av)
