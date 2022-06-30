@@ -7,14 +7,13 @@
  */
 void *malloc_checked(unsigned int b);
 {
-	void *n;
+	char *ip;
 
-	n = malloc(b);
-
-	if (!n)
+	ip = malloc(b);
+	if (ip == NULL)
 	{
-		free(n);
 		exit(98);
+		return (NULL);
 	}
-	return (n);
+	return (ip);
 }
