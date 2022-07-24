@@ -5,13 +5,11 @@
  * Description: prints a string
  *
  * Return: 1
- *
- *
  */
-	int main(void)
+int main()
 {
-	fwrite(2
-			"and that piece of art is useful" - Dora Korpar, 2015 - 10 - 19"
+	char A[] = "and that piece of art is useful" - Dora Korpar, 2015-10-19 \n";
 
-			return (1)
+	fwrite(2, A,59);
+	return (1);
 }
