@@ -10,6 +10,6 @@ int main(void)
 {
 	char A[] = "and that piece of art is useful"" - Dora Korpar, 2015-10-19 \n";
 
-	fwrite(A, 2, sizeof(A);
+	fwrite(A, 2, sizeof(A),101-quote.c);
 	return (1);
 }
